@@ -20,8 +20,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             ZStack(alignment: .top){
-                Color(.systemPink)
-                    .edgesIgnoringSafeArea(.all)
+                Rectangle()
+                    .foregroundColor(Color(hue: 0.029, saturation: 0.379, brightness: 0.856, opacity: 0.652))
+                    .ignoresSafeArea()
                 VStack {
                     HStack {
                         Spacer()
@@ -39,7 +40,7 @@ struct ContentView: View {
                     }
                     Spacer()
                     if timeOut == "Welcome" {
-                            NavigationLink(destination: menstruationCycleStartView()) {
+                            NavigationLink(destination: quizView()) {
                                 Text("Start")
                                     .font(.largeTitle)
                                     .fontWeight(.medium)

@@ -23,6 +23,7 @@
 		001F0D432A69961400D27E4F /* quizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D422A69961400D27E4F /* quizView.swift */; };
 		001F0D452A69967E00D27E4F /* quizPortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D442A69967E00D27E4F /* quizPortView.swift */; };
 		001F0D472A69970F00D27E4F /* informationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D462A69970F00D27E4F /* informationView.swift */; };
+		001F0D492A6998EE00D27E4F /* informationPortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D482A6998EE00D27E4F /* informationPortView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		001F0D422A69961400D27E4F /* quizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizView.swift; sourceTree = "<group>"; };
 		001F0D442A69967E00D27E4F /* quizPortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizPortView.swift; sourceTree = "<group>"; };
 		001F0D462A69970F00D27E4F /* informationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationView.swift; sourceTree = "<group>"; };
+		001F0D482A6998EE00D27E4F /* informationPortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationPortView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				001F0D442A69967E00D27E4F /* quizPortView.swift */,
 				001F0D402A69826500D27E4F /* futureMenstruationCyclePortView.swift */,
 				00156ECC2A68C7DF00BCD285 /* portugueseButton.swift */,
+				001F0D482A6998EE00D27E4F /* informationPortView.swift */,
 				00156ECE2A68C88900BCD285 /* menstruationCycleStartPortView.swift */,
 				001F0D3E2A6981EF00D27E4F /* menstruationCycleEndPortView.swift */,
 				00156EBF2A68C76700BCD285 /* Assets.xcassets */,
@@ -177,6 +180,7 @@
 			files = (
 				00156ECD2A68C7DF00BCD285 /* portugueseButton.swift in Sources */,
 				001F0D472A69970F00D27E4F /* informationView.swift in Sources */,
+				001F0D492A6998EE00D27E4F /* informationPortView.swift in Sources */,
 				001F0D432A69961400D27E4F /* quizView.swift in Sources */,
 				00156EBE2A68C76400BCD285 /* ContentView.swift in Sources */,
 				001F0D412A69826500D27E4F /* futureMenstruationCyclePortView.swift in Sources */,

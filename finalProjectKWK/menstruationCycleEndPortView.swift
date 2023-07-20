@@ -22,7 +22,7 @@ struct menstruationCycleEndPortView: View {
                 Text ("Selecione a data de término da sua última menstruação:  \(end)")
                 HStack{
                     Spacer()
-                    NavigationLink(destination: futureMenstruationCycleView(summary: "", start: start, end: end, endDate: datesEnd)) {
+                    NavigationLink(destination: futureMenstruationCyclePortView(summary: "", start: start, end: end, endDate: datesEnd)) {
                         Text(Image(systemName: "arrowshape.turn.up.right.fill"))
                              }
                              }

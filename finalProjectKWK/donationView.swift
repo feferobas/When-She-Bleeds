@@ -9,10 +9,11 @@ import SwiftUI
 struct donationView: View {
     private let adaptiveColumns = [GridItem(.adaptive(minimum: 170))]
     var body: some View {
-        ZStack{
-            Color(.systemRed)
-                .ignoresSafeArea()
             NavigationView{
+                ZStack(alignment: .top){
+                        Rectangle()
+                            .foregroundColor(Color(hue: 0.029, saturation: 0.379, brightness: 0.856, opacity: 0.652))
+                            .ignoresSafeArea()
                 ScrollView{
                     
                     LazyVGrid(columns:adaptiveColumns, spacing:20){

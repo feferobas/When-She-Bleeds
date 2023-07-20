@@ -12,29 +12,28 @@ struct menstruationCycleStartView: View {
     @State var datesStart: Set<DateComponents> = []
        // @State var start: String
        var body: some View {
-        NavigationStack {
-            
-            VStack {
-                Text("Your menstruation cycle")
-                MultiDatePicker("Select the date your last mesntruation started:", selection: $datesStart)
-                let start = summary
-              //  self.start = summary
-             
-                Spacer()
-                Text ("Select the date your last menstruation started:  \(start)")
-                Spacer()
-                HStack {
-                    Spacer()
-                    NavigationLink(destination: menstruationCycleEndView(start: start) ) {
-                        Text(                Image(systemName: "arrowshape.turn.up.right.fill")
-)
-                    } .padding()
-                }
-                Spacer()
-                //Text(summary)
-                
-            }
-        }
+          NavigationStack {
+               VStack {
+                   Text("Your menstruation cycle")
+                   MultiDatePicker("Select the date your last mesntruation started:", selection: $datesStart)
+                   let start = summary
+                   //  self.start = summary
+                   
+                   Spacer()
+                   Text ("Select the date your last menstruation started:  \(start)")
+                   Spacer()
+                   HStack {
+                       Spacer()
+                       NavigationLink(destination: menstruationCycleEndView(start: start) ) {
+                           Text(                Image(systemName: "arrowshape.turn.up.right.fill")
+                           )
+                       } .padding()
+                   }
+                   Spacer()
+                   //Text(summary)
+                   
+               }
+           }
         .padding()
     }
 
