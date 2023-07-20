@@ -50,7 +50,7 @@ struct donationView: View {
                             Text("Absorvendo amor")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
-                            Link("Donate to absorvendo amor", destination: URL(string:"https://www.vakinha.com.br/vaquinha/absorvendo-amor-coronavirus")!)}
+                            Link("Donate to Absorvendo Amor", destination: URL(string:"https://www.vakinha.com.br/vaquinha/absorvendo-amor-coronavirus")!)}
                         Group{
                             Image("PeriodProject")
                                 .resizable()

@@ -7,7 +7,7 @@
 
 import SwiftUI
 //import Foundation
-struct futureMenstruationCycleView: View {
+struct futureMenstruationCyclePortView: View {
     @State var summary: String
     @State var start: String
     @State var end : String
@@ -22,7 +22,7 @@ struct futureMenstruationCycleView: View {
         let dateFormatter = DateFormatter()
 
         // Set Date Format
-        dateFormatter.dateFormat = "MM/dd/YY"
+        dateFormatter.dateFormat = "dd/MM/YY"
 
         // Convert Date to String
        return dateFormatter.string(from: futureDate!)
@@ -34,7 +34,7 @@ struct futureMenstruationCycleView: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    Text("Your last menstruation started:")
+                    Text("A sua última menstruação começou:")
                     Spacer()
                     Text(start)
                     Spacer()
@@ -42,7 +42,7 @@ struct futureMenstruationCycleView: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    Text( "Your last menstruation ended: ")
+                    Text( "A sua última menstruação terminou: ")
                     Spacer()
                     Text(end)
                     Spacer()
@@ -50,7 +50,7 @@ struct futureMenstruationCycleView: View {
                      Spacer()
                 HStack {
                     Spacer()
-                    Text("Your next menstruation will start on:")
+                    Text("A sua próxima menstruação começará no dia:")
                     Spacer()
                     Text(futureDateString)
                     Spacer()
@@ -64,9 +64,10 @@ struct futureMenstruationCycleView: View {
     }
 
 
-struct futureMenstruationCycleView_Previews: PreviewProvider {
+struct futureMenstruationCyclePortView_Previews: PreviewProvider {
     static var previews: some View {
-        futureMenstruationCycleView(summary: "", start: "", end: "", endDate: Set<DateComponents>())
+        futureMenstruationCyclePortView(summary: "", start: "", end: "", endDate: Set<DateComponents>())
     }
 }
+
 

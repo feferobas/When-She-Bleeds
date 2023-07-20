@@ -17,6 +17,9 @@
 		00156ED12A68C94400BCD285 /* menstruationCycleEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00156ED02A68C94400BCD285 /* menstruationCycleEndView.swift */; };
 		001F0D372A69728A00D27E4F /* futureMenstruationCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D362A69728A00D27E4F /* futureMenstruationCycleView.swift */; };
 		001F0D392A69802300D27E4F /* donationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D382A69802300D27E4F /* donationView.swift */; };
+		001F0D3B2A69808300D27E4F /* donationPortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D3A2A69808300D27E4F /* donationPortView.swift */; };
+		001F0D3F2A6981EF00D27E4F /* menstruationCycleEndPortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D3E2A6981EF00D27E4F /* menstruationCycleEndPortView.swift */; };
+		001F0D412A69826500D27E4F /* futureMenstruationCyclePortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D402A69826500D27E4F /* futureMenstruationCyclePortView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		00156ED02A68C94400BCD285 /* menstruationCycleEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menstruationCycleEndView.swift; sourceTree = "<group>"; };
 		001F0D362A69728A00D27E4F /* futureMenstruationCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = futureMenstruationCycleView.swift; sourceTree = "<group>"; };
 		001F0D382A69802300D27E4F /* donationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donationView.swift; sourceTree = "<group>"; };
+		001F0D3A2A69808300D27E4F /* donationPortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donationPortView.swift; sourceTree = "<group>"; };
+		001F0D3E2A6981EF00D27E4F /* menstruationCycleEndPortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menstruationCycleEndPortView.swift; sourceTree = "<group>"; };
+		001F0D402A69826500D27E4F /* futureMenstruationCyclePortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = futureMenstruationCyclePortView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,6 @@
 		00156EAF2A68C76400BCD285 = {
 			isa = PBXGroup;
 			children = (
-				001F0D382A69802300D27E4F /* donationView.swift */,
 				00156EBA2A68C76400BCD285 /* finalProjectKWK */,
 				00156EB92A68C76400BCD285 /* Products */,
 			);
@@ -65,13 +70,17 @@
 		00156EBA2A68C76400BCD285 /* finalProjectKWK */ = {
 			isa = PBXGroup;
 			children = (
+				001F0D3A2A69808300D27E4F /* donationPortView.swift */,
+				001F0D382A69802300D27E4F /* donationView.swift */,
 				00156EBB2A68C76400BCD285 /* finalProjectKWKApp.swift */,
 				00156EBD2A68C76400BCD285 /* ContentView.swift */,
 				00156ECA2A68C7C800BCD285 /* menstruationCycleStartView.swift */,
 				00156ED02A68C94400BCD285 /* menstruationCycleEndView.swift */,
 				001F0D362A69728A00D27E4F /* futureMenstruationCycleView.swift */,
+				001F0D402A69826500D27E4F /* futureMenstruationCyclePortView.swift */,
 				00156ECC2A68C7DF00BCD285 /* portugueseButton.swift */,
 				00156ECE2A68C88900BCD285 /* menstruationCycleStartPortView.swift */,
+				001F0D3E2A6981EF00D27E4F /* menstruationCycleEndPortView.swift */,
 				00156EBF2A68C76700BCD285 /* Assets.xcassets */,
 				00156EC12A68C76700BCD285 /* finalProjectKWK.entitlements */,
 				00156EC22A68C76700BCD285 /* Preview Content */,
@@ -159,10 +168,13 @@
 			files = (
 				00156ECD2A68C7DF00BCD285 /* portugueseButton.swift in Sources */,
 				00156EBE2A68C76400BCD285 /* ContentView.swift in Sources */,
+				001F0D412A69826500D27E4F /* futureMenstruationCyclePortView.swift in Sources */,
 				00156ED12A68C94400BCD285 /* menstruationCycleEndView.swift in Sources */,
 				00156ECB2A68C7C800BCD285 /* menstruationCycleStartView.swift in Sources */,
 				001F0D392A69802300D27E4F /* donationView.swift in Sources */,
 				00156EBC2A68C76400BCD285 /* finalProjectKWKApp.swift in Sources */,
+				001F0D3B2A69808300D27E4F /* donationPortView.swift in Sources */,
+				001F0D3F2A6981EF00D27E4F /* menstruationCycleEndPortView.swift in Sources */,
 				001F0D372A69728A00D27E4F /* futureMenstruationCycleView.swift in Sources */,
 				00156ECF2A68C88900BCD285 /* menstruationCycleStartPortView.swift in Sources */,
 			);
