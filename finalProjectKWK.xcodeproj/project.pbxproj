@@ -16,6 +16,7 @@
 		00156ECF2A68C88900BCD285 /* menstruationCycleStartPortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00156ECE2A68C88900BCD285 /* menstruationCycleStartPortView.swift */; };
 		00156ED12A68C94400BCD285 /* menstruationCycleEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00156ED02A68C94400BCD285 /* menstruationCycleEndView.swift */; };
 		001F0D372A69728A00D27E4F /* futureMenstruationCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D362A69728A00D27E4F /* futureMenstruationCycleView.swift */; };
+		001F0D392A69802300D27E4F /* donationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F0D382A69802300D27E4F /* donationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		00156ECE2A68C88900BCD285 /* menstruationCycleStartPortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menstruationCycleStartPortView.swift; sourceTree = "<group>"; };
 		00156ED02A68C94400BCD285 /* menstruationCycleEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menstruationCycleEndView.swift; sourceTree = "<group>"; };
 		001F0D362A69728A00D27E4F /* futureMenstruationCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = futureMenstruationCycleView.swift; sourceTree = "<group>"; };
+		001F0D382A69802300D27E4F /* donationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		00156EAF2A68C76400BCD285 = {
 			isa = PBXGroup;
 			children = (
+				001F0D382A69802300D27E4F /* donationView.swift */,
 				00156EBA2A68C76400BCD285 /* finalProjectKWK */,
 				00156EB92A68C76400BCD285 /* Products */,
 			);
@@ -158,6 +161,7 @@
 				00156EBE2A68C76400BCD285 /* ContentView.swift in Sources */,
 				00156ED12A68C94400BCD285 /* menstruationCycleEndView.swift in Sources */,
 				00156ECB2A68C7C800BCD285 /* menstruationCycleStartView.swift in Sources */,
+				001F0D392A69802300D27E4F /* donationView.swift in Sources */,
 				00156EBC2A68C76400BCD285 /* finalProjectKWKApp.swift in Sources */,
 				001F0D372A69728A00D27E4F /* futureMenstruationCycleView.swift in Sources */,
 				00156ECF2A68C88900BCD285 /* menstruationCycleStartPortView.swift in Sources */,
